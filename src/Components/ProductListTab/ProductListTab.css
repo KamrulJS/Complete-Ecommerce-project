@@ -1,0 +1,31 @@
+.productList-tab {
+    margin-top: 100px;
+}
+.head-content {
+    margin-bottom: 50px;
+}
+.productList-tab .head-content .filter-tabs .list li{
+   font-size: 14px; text-transform: capitalize; background-color: rgb(227, 227, 227) !important; padding: 7px 15px; border-radius: 20px; transition: all 0.3s; line-height: 16px; cursor: pointer;
+}
+.productList-tab .head-content .list li:hover{
+    background-color: rgb(45, 160, 162) !important; padding: 7px 15px; font-size: 14px;  color: white; 
+}
+.productList-tab .head-content .list li.active{
+    background-color: rgb(45, 160, 162) !important; padding: 7px 15px; font-size: 14px; color: white; 
+}
+.productList-tab .head-content .filter-tabs .list {
+    display: flex;
+    flex-direction: row; flex-shrink: 1; flex-grow: 0; justify-content: center !important; align-items: center !important;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: start;
+    align-items: stretch;
+    gap: 20px;
+}

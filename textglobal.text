@@ -1,0 +1,3 @@
+global bg - rgb(45, 160, 162)
+text - 
+product api = https://kamruljs.github.io/ecommerce-project-API/db.json

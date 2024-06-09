@@ -1,0 +1,99 @@
+nav {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid rgb(234, 234, 234);
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+nav .nav-category button{
+    padding: 12px 25px;
+    gap: 7px;
+}
+
+nav .nav-menu ul {
+    padding: 0;
+    margin: 0;
+}
+nav .nav-menu ul {
+    /* position: relative; */
+    margin: auto;
+}
+
+nav .nav-menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav .nav-menu ul button{
+    /* padding: 7px 12px; */
+    text-decoration: none;
+    color: black !important;
+    text-transform: capitalize;
+}
+nav .nav-menu ul button a{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav .nav-menu ul li{
+    position: relative;
+}
+nav .contact-btn .phoneNum span {
+    font-size: 30px; 
+}
+nav .contact-btn .phoneNum h4 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0; 
+}
+nav .contact-btn .phoneNum h4 p {
+    font-size: 10px !important;
+    padding: 0;
+    margin: 0 !important; 
+}
+
+nav .nav-menu .pages-dropMenu{
+    z-index: 10; background-color: rgb(255, 255, 255); position: absolute; top: 120%; left: 0px; width: 200px; height: auto;  padding: 10px 20px ; box-shadow: 0px 2px 10px 1px rgb(232, 232, 232); opacity: 0; visibility: hidden; transition: 0.3s ease-in-out;
+}
+nav .nav-menu .pages-dropMenu li{
+    list-style: none; width: 100%;
+}
+nav .nav-menu .pages-dropMenu li button{
+    width: 100%; padding: 5px 7px; text-align: left !important; justify-content: flex-start; gap: 10px; color: rgb(146, 146, 146) !important; transition: 0.3s all;
+}
+nav .nav-menu .pages-dropMenu li button a{
+    font-size: 15px !important; font-weight: 300 !important; text-transform: capitalize; color: rgb(91, 91, 91) !important;
+}
+nav .nav-menu .pages-dropMenu li button:hover{
+   transform: translateX(5px);
+}
+
+nav .nav-menu li:hover .pages-dropMenu {
+    top: 100%; opacity: 1; visibility: inherit; margin: 0 auto;
+}
+nav .MegaMenu {
+     width: 80% !important; display: flex; flex-direction: row; justify-content: center; align-items: flex-start; height: auto !important; padding: 30px 20px !important; background-color: white;
+}
+
+nav .MegaMenu h4{
+     font-size: 16px; font-weight: 500; color: black; text-transform: uppercase; position: relative; padding-bottom: 10px;
+}
+/* nav .MegaMenu h4:hover{
+      color: rgb(45, 160, 162); text-transform: uppercase;
+} */
+nav .MegaMenu img{
+     width: 200px ; height: 200px; object-fit: cover;
+}
+
+/* nav .MegaMenu h4::after{
+    transition: all 0.3s; content: "";  height: 2px; border-radius: 5px; background-color: rgb(239, 239, 239); position: absolute; bottom: 0px; left: 0px;
+ } */
+ 
+ nav .MegaMenu h4::before{
+     transition: all 0.3s; content: ""; width: 20%; height: 2px; border-radius: 5px; background-color: rgb(45, 160, 162); position: absolute; bottom: 0px; left: 0px; z-index: 10;
+ }
+ nav .MegaMenu .col:hover h4::before{
+     content: ""; width: 100%; height: 2px; border-radius: 5px; background-color: rgb(45, 160, 162); position: absolute; bottom: 0px; left: 0px; z-index: 10;
+ }
+
+

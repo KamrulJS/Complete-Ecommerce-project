@@ -1,0 +1,55 @@
+.ProductListing {
+    width: 100%;
+    margin-top: 20px;
+}
+.ProductListing .breadcrumb {
+    padding: 50px 40px; display: flex; flex-direction: column; background-color: rgb(214, 239, 239);
+}
+.ProductListing .breadcrumb h2 {
+    font-size: 45px; font-weight: 700; text-transform: capitalize;
+}
+
+.ProductListing .listing-data{
+    margin: 50px 0px; display: grid; grid-template-rows: auto; grid-template-columns: 1fr 5fr; justify-content: start; align-items: start; gap: 30px;
+}
+.left-sidebar {
+   max-width: 100%; padding: 0; margin: 0; display: flex; flex-direction: column; justify-content: center; align-items: stretch; gap: 50px;
+}
+
+.right-products{
+    width: 100% !important;
+}
+
+.right-products .product-list {
+width: 100% !important; display:grid; grid-template-rows: auto; grid-template-columns: 1fr 1fr 1fr 1fr; margin: 0 !important; padding: 0 !important;  gap: 15px; 
+}
+.right-products .product-list .items {
+ display: grid; justify-content: stretch !important; align-items: stretch !important;
+}
+
+.topListingHeader {
+    display: flex;
+    flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 30px;
+}
+.topListingHeader .top-list-heading {
+    font-size: 16px; font-weight: 400; text-transform: capitalize;
+}
+
+.sorting-product-listing{
+    display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;
+}
+.showProductGrid .btn-main {
+   font-size: 13px; color: rgb(140, 140, 140); padding: 5px 15px; text-transform: capitalize; gap: 5px; border: 1px solid rgb(231, 231, 231);
+}
+.sortList .btn-main {
+    font-size: 13px; color: rgb(140, 140, 140); padding: 5px 15px; text-transform: capitalize; gap: 5px; border: 1px solid rgb(231, 231, 231);
+}
+
+.showProductGrid .showDropMenu { top: 120% !important; z-index: 10; background-color: rgb(255, 255, 255); position: absolute; top: 100%; right: 0px; width: 150px; height: auto; padding: 10px 20px !important; box-shadow: 0px 2px 5px 1px rgb(218, 218, 218);}
+.showProductGrid .showDropMenu li { list-style: none; width: 100%; }
+.showProductGrid .showDropMenu button {width: 100%; text-align: left !important; align-items: center; justify-content: center; gap: 10px; color: rgb(132, 132, 132) !important; font-size: 12px !important; font-weight: 300 !important; text-transform: capitalize;}
+
+
+.sortList .sortingDropMenu {top: 120% !important; z-index: 10; background-color: rgb(255, 255, 255); position: absolute; top: 100%; right: 0px; width: 170px; height: auto; padding: 10px 20px !important; box-shadow: 0px 2px 5px 1px rgb(218, 218, 218);}
+.sortList .sortingDropMenu li { list-style: none; width: 100%; }
+.sortList .sortingDropMenu button {width: 100%; text-align: left !important; justify-content: start; gap: 10px; color: rgb(132, 132, 132) !important; font-size: 12px !important; font-weight: 300 !important; text-transform: capitalize;}

@@ -1,0 +1,43 @@
+header {width: 100%; height: 70px; margin: auto; padding: 15px 0px; z-index: 10; background-color: white;}
+.navigationMenu { background-color: white; position: sticky; top: 0; left: 0; width: 100%; z-index: 10;}
+header .search {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+header .header-search{width: 100%; height: 50px; border: 1px solid rgb(45, 160, 162); padding: 6px 14px; border-radius:6px;}
+
+header .header-search .selectDropMenu{width: 30%;  cursor: pointer;}
+
+header .header-search .selectDropMenu:after{content: ''; width: 1px; height: 25px ; background-color: #d3d3d3; position: absolute; margin: 0 0px;}
+
+header .header-search .selectDropMenu .openSelectDrop{ padding: 0px 20px;}
+header .header-search .selectDropMenu .openSelectDrop:hover{ color: brown;}
+
+header .header-search span{ font-size: 16px; font-weight: 400;}
+
+header .header-search .searchField{width: 80%; font-size: 16px; font-weight: 400; }
+
+header .header-search .searchField .searchArea{display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
+
+header .header-search .searchField input{width: 95%; height: 30px; border: 0; outline: none !important;}
+
+header .header-search .searchField .searchIcon{font-size: 20px;}
+
+header .country { display: flex; justify-content: center; align-items: center;}
+
+header .countryList { border: 1px solid #d3d3d3; border-radius: 8px; display: flex; flex-direction: column ; justify-content: center; align-items: center; padding: 10px 20px; cursor: pointer;  box-shadow: 0px 2px 5px 1px rgb(237, 237, 237);}
+
+header .iconsEcom{ width: max-content; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 50px; }
+header .iconsEcom ul{ padding: 0; margin: 0; gap:20px;}
+header .iconsEcom ul li { position: relative;}
+header .iconsEcom ul li:hover {color: rgb(4, 200, 112);}
+header .iconsEcom ul li .badge{ position: absolute; font-size: 12px !important; width: 20px; height: 20px; border-radius: 50px; background-color: black; color: white; top: -10px; left: 0px; }
+
+header .list { width: 100%;  display: flex; flex-direction: row; justify-content: center; align-items: center; cursor: pointer;}
+
+header .accountDropMenu { z-index: 1000; background-color: rgb(255, 255, 255); position: absolute; top: 100%; right: 0px; width: 200px; height: auto; padding: 10px 20px !important; box-shadow: 0px 2px 10px 1px rgb(232, 232, 232);}
+
+header .accountDropMenu li { list-style: none; width: 100%; }
+header .accountDropMenu button {width: 100%; text-align: left !important; justify-content: flex-start; gap: 10px; color: rgb(86, 86, 86) !important; font-size: 14px !important; font-weight: 400; text-transform: capitalize;}
+
+
+/* font-size: 14px !important; */
+

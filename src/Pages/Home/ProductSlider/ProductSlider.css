@@ -1,0 +1,41 @@
+.productSlider {
+     padding: 100px 0px !important;
+}
+.box {
+    padding: 0 !important;
+    margin: 0;
+    border: none !important;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(27, 27, 27);
+}
+.box .box-area {
+    padding: 0; margin: 0;
+    position: relative;
+    overflow: hidden !important;
+}
+.box img {
+   width: 100%;
+   opacity: 0.2;
+}
+.box .content-box {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    text-transform: capitalize;
+}
+
+.slick-arrow {
+    padding: 30px;
+ }
+
+.productSlider .slick-arrow.slick-next {
+    top: 50% !important; right: -20px !important;
+ }
+.productSlider .slick-arrow.slick-prev {
+    top: 50% !important; left: -30px !important;
+ }
+
+ 
+ 
