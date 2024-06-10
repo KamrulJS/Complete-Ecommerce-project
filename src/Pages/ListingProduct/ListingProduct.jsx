@@ -23,6 +23,7 @@ const ListingProduct = (props) => {
     const {id} = useParams();
     var itemData = [];
     useEffect(() => {
+        window.scrollTo(0,0)
     //   alert(props.single) 
     allProductData &&
     allProductData.map((item)=>{

@@ -13,7 +13,6 @@ import axios from 'axios'
 
 function App() {
 const [productData, setproductData] = useState([]);
-console.log(productData);
 useEffect(() => {
   getData('https://kamruljs.github.io/ecommerce-project-API/db.json');
 }, []);
